@@ -2,7 +2,7 @@
 Summary: DocBook Slides document type and stylesheets
 Name: docbook-slides
 Version: 3.4.0
-Release: 12%{?dist}
+Release: 13%{?dist}
 License: MIT
 Group: Applications/Text
 URL: http://sourceforge.net/projects/docbook
@@ -156,6 +156,9 @@ if [ "$1" = 0 ]; then
 fi
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.4.0-13
+- Mass rebuild 2013-12-27
+
 * Tue Nov 27 2012 Ondrej Vasik <ovasik@redhat.com> 3.4.0-12
 - avoid using Fedora in the README2 file (portability)
 
